@@ -1,5 +1,6 @@
 import os,sys
 sys.path.append(os.path.dirname(os.getcwd()))
+sys.path.append(os.path.join(os.path.dirname(os.getcwd()),"Lib\\site-packages"))
 from config.config_data import ConfigData
 from base.run_method import RunMethod
 from base.handle_header import HandleHeader
