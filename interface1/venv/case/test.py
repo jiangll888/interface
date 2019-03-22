@@ -1,3 +1,6 @@
+import os,sys
+sys.path.append(os.path.dirname(os.getcwd()))
+sys.path.append(os.path.join(os.path.dirname(os.getcwd()),"Lib\\site-packages"))
 import unittest
 import ddt
 from util.db_config import OperaDB
